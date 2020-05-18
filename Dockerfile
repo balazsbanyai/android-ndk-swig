@@ -16,3 +16,4 @@ RUN wget -O swig.tar.gz http://prdownloads.sourceforge.net/swig/swig-4.0.1.tar.g
     rm swig.tar.gz
 
 RUN sdkmanager --install "cmake;3.10.2.4988404"
+RUN sdkmanager --install "ndk;21.0.6113669"
